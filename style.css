@@ -4,6 +4,30 @@ body{
 h1{
     font-size: 70px;
 }
+ul.nav {
+	margin:0;
+	padding:0;
+	list-style:none;
+	height:36px;
+    line-height:36px;
+	background: orange; 
+	font-size:13px;
+}
+ul.nav li {
+	border-right:1px tomato; 
+	float:right;
+}
+ul.nav a {
+	display:block;
+	padding:0 28px;
+	color:#ccece6;
+	text-decoration:none;
+}
+.navigation{
+    background-color: orange;
+    padding: 20px;
+}
+
 .orange-color{
     color: orange;
 
@@ -128,6 +152,25 @@ section{
     border-radius: 40px;
 
 }
+.section-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+
+.section-4-heading{
+    font-size: 41px;
+    color: #707070;
+    margin-bottom: 10px;
+}
+
+.section-4-paragraph{
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
 .footers {
 
     margin-top: 10%;
